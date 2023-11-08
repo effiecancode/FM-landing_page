@@ -1,0 +1,167 @@
+/* Reset some default styles */
+body, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Apply some basic styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color:  #04371a;
+    color: #050505;
+    padding: 10px 0;
+}
+
+nav ul {
+    /* Change the display property to flex-direction: column; */
+    display: flex;
+    padding: 10px;
+}
+
+nav li {
+    /* Add some margin to separate the navigation items vertically */
+    margin: 10px 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fdfcfc;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+.div {
+    padding: 20px;
+    text-align: center;
+}
+
+.cover-image {
+    max-width: 100%;
+    max-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cover-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+p {
+    line-height: 1.2em; /* Line height is 1.2 times the font size in em units */
+  }
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.2rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+h4 {
+    color:#9cd11a;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:  #9cd11a;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+/* Styles for the feature section */
+#features {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.feature {
+    flex-basis: calc(33.33% - 20px);
+    margin: 10px;
+    padding: 10px;
+}
+
+.feature img {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.feature h2 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.feature p {
+    font-size: 1rem;
+}
+
+.about-content {
+    max-width: 80%;
+    text-align: center;
+    /* background-color: #9cd11a; */
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+/* Styling for the About Section */
+#about {
+    background-color: #f7f7f7;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.about-content {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.about-content h2 {
+    font-size: 28px;
+    color: #333;
+}
+
+.about-content p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+}
+
+/* Add some margin to the top of the section to separate it from the previous section */
+#about {
+    margin-top: 30px;
+}
+
