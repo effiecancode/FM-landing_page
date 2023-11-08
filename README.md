@@ -1,4 +1,4 @@
-[App's link](https://effiecancode.github.io/FM-landing_page/)
+[Landing Page link](https://effiecancode.github.io/FM-landing_page/)
 
 
 ![Alt text](https://imgur.com/iigKY2C.jpeg)
